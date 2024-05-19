@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState } from 'react';
 
 import Slide from '@mui/material/Slide';

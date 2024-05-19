@@ -1,3 +1,4 @@
+import React from 'react';
 import PropTypes from 'prop-types';
 import { forwardRef, useCallback } from 'react';
 
@@ -99,6 +100,8 @@ const ColorPicker = forwardRef(
     );
   }
 );
+
+ColorPicker.displayName = 'ColorPicker';
 
 ColorPicker.propTypes = {
   colors: PropTypes.oneOfType([PropTypes.string, PropTypes.arrayOf(PropTypes.string)]),

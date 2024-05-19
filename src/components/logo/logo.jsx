@@ -1,3 +1,4 @@
+import React from 'react';
 import PropTypes from 'prop-types';
 import { forwardRef } from 'react';
 
@@ -86,6 +87,8 @@ const Logo = forwardRef(({ disabledLink = false, sx, ...other }, ref) => {
     </Link>
   );
 });
+
+Logo.displayName = 'Logo';
 
 Logo.propTypes = {
   disabledLink: PropTypes.bool,

@@ -1,3 +1,4 @@
+import React from 'react';
 import PropTypes from 'prop-types';
 
 import Box from '@mui/material/Box';
@@ -10,6 +11,9 @@ import { fShortenNumber } from 'src/utils/format-number';
 // ----------------------------------------------------------------------
 
 export default function AppWidgetSummary({ title, total, icon, color = 'primary', sx, ...other }) {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const iconColor = color === 'primary' ? 'info' : color;
+
   return (
     <Card
       component={Stack}

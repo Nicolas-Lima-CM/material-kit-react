@@ -1,3 +1,4 @@
+import React from 'react';
 import SvgColor from 'src/components/svg-color';
 
 // ----------------------------------------------------------------------
